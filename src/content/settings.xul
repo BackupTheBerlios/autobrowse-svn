@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!--
+ 	AutoBrowse, automatically browsing the net
+ 	Copyright (C) 2006 Jan Kechel
+ 
+ 	This program is free software; you can redistribute it and/or
+ 	modify it under the terms of the GNU General Public License
+ 	as published by the Free Software Foundation; either version 2
+ 	of the License, or (at your option) any later version.
+ 
+ 	This program is distributed in the hope that it will be useful,
+ 	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ 	GNU General Public License for more details.
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; if not, write to the Free Software
+ 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://autobrowse/skin/overlay.css" type="text/css"?>
+
+<dialog id="ab-settings-dialog" 
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="AutoBrowse Settings"
+	ondialogaccept="return AutoBrowseSettings.onSettingsOK();"
+	ondialogcancel="return AutoBrowseSettings.onSettingsCancel();"
+	onload="return AutoBrowseSettings.onSettingsLoad();">
+
+	<script src="settings.js"/>
+
+	<vbox>
+		<groupbox>
+			<caption label="Extern search engine URL"/>
+			<hbox>
+				<vbox id="ab-input">
+					<textbox id="ab-searchurl" cols="200" rows="1"/>
+				</vbox>
+				<vbox id="ab-help">
+					<label value="The keyword will be appended"/>
+					<label value="to this url to perform the search."/>
+					<label value="Default is 'http://google.de/search?q='"/>
+				</vbox>
+			</hbox>
+		</groupbox>
+
+		<groupbox>
+			<caption label="Keyword to search for"/>
+			<hbox>
+				<vbox id="ab-input">
+					<textbox id="ab-searchforkeyword" cols="200" rows="1"/>
+				</vbox>
+				<vbox id="ab-help">
+					<label value="Enter any keyword you like."/>
+					<label value="This will be used for the initial search."/>
+				</vbox>
+			</hbox>
+
+		</groupbox>
+
+		<groupbox>
+			<caption label="Frequency in seconds"/>
+			<hbox>
+				<vbox id="ab-input">
+					<textbox id="ab-frequency" cols="200" rows="1"/>
+				</vbox>
+				<vbox id="ab-help">
+						<label value="This sets in which intervals"/>
+					<label value="new pages will be loaded."/>
+				</vbox>
+			</hbox>
+		</groupbox>
+
+		<groupbox>
+			<caption label="Stop-Words (separate with comma ',')"/>
+			<hbox>
+				<vbox id="ab-input">
+					<textbox id="ab-stopwords" cols="200" rows="1"/>
+				</vbox>
+				<vbox id="ab-help">
+					<label value="Sites containing one of these"/>
+					<label value="words won't be scanned for new links."/>
+				</vbox>
+			</hbox>
+		</groupbox>
+
+		<groupbox>
+			<caption label="Yes-Words (separate with comma ',')"/>
+			<hbox>
+				<vbox id="ab-input">
+					<textbox id="ab-yeswords" cols="200" rows="1"/>
+				</vbox>
+				<vbox id="ab-help">
+					<label value="Only sites containing one of these"/>
+					<label value="words will be scanned for new links."/>
+				</vbox>
+			</hbox>
+		</groupbox>
+
+		<groupbox>
+			<caption label="Limit to domains (separate with comma ',')"/>
+			<hbox>
+				<vbox id="ab-input">
+					<textbox id="ab-topleveldomain" cols="200" rows="1"/>
+				</vbox>
+				<vbox id="ab-help">
+					<label value="Only sites from these"/>
+					<label value="domains will be loaded."/>
+				</vbox>
+			</hbox>
+		</groupbox>
+
+		<hbox>
+			<button align="end" dlgtype="accept" accesskey="O"/>
+			<button align="end" dlgtype="cancel" accesskey="C"/>
+		</hbox>
+	</vbox>
+
+</dialog>

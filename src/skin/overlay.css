@@ -1,0 +1,24 @@
+#ab-license {
+	width:600px;
+	height:400px;
+}
+
+#ab-title {
+	font-weight:bold;
+	font-size:14px;
+}
+#ab-copy{
+	font-weight:bold;
+}
+
+#ab-settings-dialog {
+	width:400px;
+}
+
+#ab-input {
+	width:300px;
+}
+
+#ab-help {
+	width:300px;
+}

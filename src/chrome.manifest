@@ -1,0 +1,8 @@
+content autobrowse content/
+
+overlay chrome://browser/content/browser.xul chrome://autobrowse/content/overlay.xul
+
+skin autobrowse classic/1.0 skin/
+
+style chrome://global/content/customizeToolbar.xul chrome://autobrowse/skin/overlay.css
+

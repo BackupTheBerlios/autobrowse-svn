@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--
+ 	AutoBrowse, automatically browsing the net
+ 	Copyright (C) 2006 Jan Kechel
+ 
+ 	This program is free software; you can redistribute it and/or
+ 	modify it under the terms of the GNU General Public License
+ 	as published by the Free Software Foundation; either version 2
+ 	of the License, or (at your option) any later version.
+ 
+ 	This program is distributed in the hope that it will be useful,
+ 	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ 	GNU General Public License for more details.
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; if not, write to the Free Software
+ 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<?xml-stylesheet href="chrome://autobrowse/skin/overlay.css" type="text/css"?>
+
+<overlay id="autobrowse-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script src="overlay.js"/>
+
+	<menupopup id="menu_ToolsPopup">
+		<menu label="AutoBrowse">
+			<menupopup>
+				<menuitem id="ab-prefs" label="Start" oncommand="AutoBrowse.onStart(event);"/>
+				<menuitem id="ab-prefs" label="Stop" oncommand="AutoBrowse.onStop(event);"/>
+				<menuseparator/>
+				<menuitem id="ab-prefs" label="Settings" oncommand="AutoBrowse.onSettings(event);"/>
+				<menuitem id="ab-prefs" label="License" oncommand="AutoBrowse.onLicense(event);"/>
+			</menupopup>
+		</menu>
+	</menupopup>
+
+				
+</overlay>
+
