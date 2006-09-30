@@ -1,4 +1,5 @@
 content autobrowse jar:chrome/autobrowse.jar!/content/
+locale autobrowse en-US  jar:chrome/autobrowse.jar!/locale/en-US/
 
 overlay chrome://browser/content/browser.xul chrome://autobrowse/content/overlay.xul
 

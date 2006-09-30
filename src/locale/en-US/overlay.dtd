@@ -1,0 +1,5 @@
+<!ENTITY atb.menu.autobrowse "AutoBrowse">
+<!ENTITY atb.menuitem.start.restart "Start / Restart">
+<!ENTITY atb.menuitem.stop "Stop">
+<!ENTITY atb.menuitem.settings "Settings">
+<!ENTITY atb.menuitem.license "License">

@@ -27,7 +27,7 @@
 	<menupopup id="menu_ToolsPopup">
 		<menu label="AutoBrowse">
 			<menupopup>
-				<menuitem id="ab-prefs" label="Start" oncommand="AutoBrowse.onStart(event);"/>
+				<menuitem id="ab-prefs" label="Start / Restart" oncommand="AutoBrowse.onStart(event);"/>
 				<menuitem id="ab-prefs" label="Stop" oncommand="AutoBrowse.onStop(event);"/>
 				<menuseparator/>
 				<menuitem id="ab-prefs" label="Settings" oncommand="AutoBrowse.onSettings(event);"/>

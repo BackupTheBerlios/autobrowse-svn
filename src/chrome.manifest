@@ -1,4 +1,5 @@
 content autobrowse content/
+locale autobrowse en-US  locale/en-US/
 
 overlay chrome://browser/content/browser.xul chrome://autobrowse/content/overlay.xul
 

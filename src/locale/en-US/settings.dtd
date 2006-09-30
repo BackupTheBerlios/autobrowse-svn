@@ -1,0 +1,22 @@
+<!ENTITY atb.dialog.autobrowse.settings "AutoBrowse Settings">
+<!ENTITY atb.caption.extern.search.eng0 "Extern search engine URL">
+<!ENTITY atb.label.the.keyword.will.be1 "The keyword will be appended">
+<!ENTITY atb.label.to.this.url.to.perf2 "to this url to perform the search.">
+<!ENTITY atb.label.default.is.http.goo3 "Default is 'http://google.de/search?q='">
+<!ENTITY atb.caption.keyword.to.search4 "Keyword to search for">
+<!ENTITY atb.label.enter.any.keyword.y5 "Enter any keyword you like.">
+<!ENTITY atb.label.this.will.be.used.f6 "This will be used for the initial search.">
+<!ENTITY atb.caption.frequency.in.seco7 "Frequency in seconds">
+<!ENTITY atb.label.this.sets.in.which.8 "This sets in which intervals">
+<!ENTITY atb.label.new.pages.will.be.l9 "new pages will be loaded.">
+<!ENTITY atb.caption.stop.words.separ10 "Stop-Words (separate with comma ',')">
+<!ENTITY atb.label.sites.containing.o11 "Sites containing one of these">
+<!ENTITY atb.label.words.won.t.be.sca12 "words won't be scanned for new links.">
+<!ENTITY atb.caption.yes.words.separa13 "Yes-Words (separate with comma ',')">
+<!ENTITY atb.label.only.sites.contain14 "Only sites containing one of these">
+<!ENTITY atb.label.words.will.be.scan15 "words will be scanned for new links.">
+<!ENTITY atb.caption.limit.to.domains16 "Limit to domains (separate with comma ',')">
+<!ENTITY atb.label.only.sites.from.th17 "Only sites from these">
+<!ENTITY atb.label.domains.will.be.lo18 "domains will be loaded.">
+<!ENTITY atb.button.o "O">
+<!ENTITY atb.button.c "C">
