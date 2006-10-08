@@ -5,7 +5,7 @@ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>{3867e8ff-5171-4346-a578-b118c968c65c}</em:id>
-		<em:version>0.7</em:version>
+		<em:version>0.8</em:version>
 		<em:type>2</em:type>
 
 		<!-- Firefox -->
@@ -22,7 +22,7 @@ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 			<Description>
 				<em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
 				<em:minVersion>0.7</em:minVersion>
-				<em:maxVersion>0.7.5.*</em:maxVersion>
+				<em:maxVersion>0.7.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 
